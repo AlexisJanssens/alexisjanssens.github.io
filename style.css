@@ -7,6 +7,24 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.texte-image p {
+    font-size: 22px;
+    font-weight: 400;
+    color: #636363;
+
+}
+
+.texte-image2 p {
+    font-size: 20px;
+    font-weight: 100;
+    color: #636363;
+    font-style: italic;
+}
+
+.texte-image2 p.citation {
+    color: #747474;
+    font-style: normal;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -743,7 +761,9 @@ h4 {
 }
 
 .portfolio-thumb {
+    margin: auto;
     margin-bottom: 24px;
+    
 }
 
 .portfolio-row {
@@ -826,6 +846,10 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
+}
+
+.texte-image {
+    font-size: 15px;
 }
 
 @media (max-width: 1024px) {
