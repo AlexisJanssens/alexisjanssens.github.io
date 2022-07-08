@@ -109,7 +109,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -671,6 +671,13 @@ a {
     font-weight: 400;
 }
 
+label {
+    color: #333333;
+}
+
+.col-sm-6 p {
+    color: #333333;
+}
 .social p {
     color: rgba(255, 255, 255, .6)
 }
